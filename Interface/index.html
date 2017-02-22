@@ -1,0 +1,222 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Main Page | Css sample</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/site.css" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="scripts/main.js"></script>
+</head>
+<body>
+    <form>
+        <div class="maincontent">
+            <div class="header">
+                <div class="nav">
+                    <i class="fa fa-bars fa-lg" aria-hidden="true"></i>
+                </div>
+                <div class="breadcrm">
+                    <!-- breadcrum code can be added dynamically as per flow-->
+                    <p><a href="#">Billing</a>  > <span>Refund</span></p>
+                </div>
+                <div class="clear"></div>
+                <div class="main-menu">
+                    <div class="nav-inner">
+                        <i class="fa fa-bars fa-lg" aria-hidden="true"></i>
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="#"> Manisha Sahu  <span class="time">10 Apr 15 14:10</span><span class="post">Reception</span> </a>
+                        </li>
+                        <li><a href="#">Web Link</a></li>
+                        <li><a href="#">Reception</a></li>
+                        <li class="hasmenu">
+                            <a href="#">Billing</a>
+                            <ul class="submenu">
+                                <li><a href="#">Advance</a></li>
+                                <li><a href="#">Refund</a></li>
+                                <li><a href="#">Billing</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Ward</a></li>
+                        <li><a href="#">Laborartory</a></li>
+                        <li><a href="#">FSD</a></li>
+                        <li><a href="#">Purchase</a></li>
+                        <li><a href="#">Stores</a></li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="content">
+                <!-- can used div also or table-->
+                <div class="forms">
+                    <div class="row">
+                        <div class="form-group">
+                            <label for="email"> Reg No:</label>
+                            <input type="email" class="form-control" id="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="pwd">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                                (if not available)
+                            </label>
+                            <!--<input type="password" class="form-control" id="pwd">-->
+                        </div>
+                        <div class="form-group">
+                            <label for="email"> Visit No:</label><br />
+                            <select class="select-style">
+                                <option>
+                                    some/text
+                                </option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Visitors Details:</label><br />
+                            <label class="visitors">Mr.Statis ERTYUIOBNMNJBJHKNKNKNJKN</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group">
+                            <label>Visit Balance:</label><br />
+                            <label class="visitbalance">10000 cr.</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group">
+                            <label>Payment Mode:</label><br />
+                            <select class="select-style">
+                                <option>
+                                    Cash
+                                </option>
+                                <option>
+                                    Credit Card
+                                </option>
+                                <option>
+                                    Debit Card
+                                </option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group" style="width:60%;">
+                            <label>Payment Mode:</label><br />
+                            <textarea></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group">
+                            <label>Amount:</label><br />
+                            <input type="text" class="form-control" id="amount">
+                        </div>
+                    </div>
+                </div>
+
+                <!--<div class="table-responsive">
+                <table class="table">
+                    <tr>
+                        <td width="20%">
+                            Reg No:
+                        </td>
+                        <td width="10%"></td>
+                        <td width="20%">
+                            Visit No:
+                        </td>
+                        <td>
+                            Visitor Details
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="text" class="txtbox" />
+                        </td>
+                        <td><span>(if Not available)</span></td>
+                        <td>
+                            <select class="select-style">
+                                <option>
+                                    some/text
+                                </option>
+                            </select>
+                        </td>
+                        <td>
+                            Mr. Satis 9679767809808679860797678
+                        </td>
+                    </tr>
+                    <tr></tr>
+                    <tr></tr>
+                    <tr>
+                        <td width="20%">
+                            Visit Balance:
+                        </td>
+                        <td width="10%"></td>
+                        <td width="20%"></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="visit"> 1000 cr.</span>
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr></tr>
+                    <tr></tr>
+
+                    <tr>
+                        <td width="20%">
+                            Payment Mode:
+                        </td>
+                        <td width="10%"></td>
+                        <td width="20%"></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <select class="select-style">
+                                <option>
+                                    Cash
+                                </option>
+                                <option>
+                                    Credit Card
+                                </option>
+                                <option>
+                                    Debit Card
+                                </option>
+                            </select>
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr></tr>
+                    <tr></tr>
+                    <tr>
+                        <td width="20%">
+                            Amount:
+                        </td>
+                        <td width="10%"></td>
+                        <td width="20%"></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="text" class="txtbox" />
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+
+                </table>
+                </div>-->
+
+            </div>
+            <div class="footer">
+                <input type="button" class="reset" value="Reset" /><input type="submit" class="save" value="Save" />
+            </div>
+        </div>
+    </form>
+</body>
+</html>
